@@ -63,6 +63,8 @@ const Weather = () => {
     search("London");
   },[])
   return (
+    <>
+    <p className='heading'>Weatherly</p>
     <div className='weather'>
     <div className='search-bar'>
         <input ref={inputRef} type='text' placeholder='Search'/>
@@ -91,6 +93,7 @@ const Weather = () => {
     </>:<></>}
     
     </div>
+    </>
   )
 }
 

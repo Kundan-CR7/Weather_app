@@ -1,5 +1,17 @@
 @import "tailwindcss";
 
+.heading {
+  background: linear-gradient(to right, #fde047, #fb923c);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 46px;
+  text-align: center;
+  margin-top: 50px;
+  padding: auto;
+  font-weight: 500;
+}
 .weather {
   font-family: "Courier New", Courier, monospace;
   place-self: center;
@@ -9,7 +21,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* width: max(500px, 50%); */
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
   transition: transform 0.3s ease-in-out, box-shadow 0.3s;
 }
